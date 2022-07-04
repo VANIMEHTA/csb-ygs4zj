@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&family=Space+Mono&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-div">
+        <div class="navigation" id="nav">
+          <ul class="left-list">
+            <li>snap</li>
+            <li id="features">Features<img src="icon-arrow-up.svg" class="hide"/>
+              <div id="hidden">
+              <a href="#" ><img class="space" src="icon-todo.svg"/>Todo List</a> 
+              <br>
+                <a href="#" ><img class="space" src="icon-calendar.svg"/>Callender</a>
+                <br>
+                <a href="#" > <img class="space"  src="icon-reminders.svg"/> Reminders</a>
+              </div>
+               </li>
+            <li id="company">Company<img src="icon-arrow-up.svg" class="hide1"/>
+              <div id="hidden1">
+                <p class="font">History</p>
+                <p class="font">Our Team</p>
+                <p class="font">Blog</p>
+              </div>
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </ul>
+        </div>
+        <p class="bold">
+          Make remote work
+        </p>
+
+        <p class="para">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+
+        <p>
+          <div class="butt">
+          <button class="butt">Learn more</button>
+        </div>
+        </p>
+      </div>
+
+      <div class="right-div">
+        <ul class="right-list">
+          <li>Login</li>
+          <li>Register</li>
+          
+        </ul>
+        <img src="icon-menu.svg" class="menu"/>
+        <img class="main-img" src="image-hero-mobile.png" alt="hero-img" />
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" />
+  </body>
+</html>

@@ -1,12 +1,12 @@
-$("#features").click(function () {
+$("#features").on("click", function () {
   $("#hidden").slideToggle("slow");
   $(".hide").slideToggle("slow");
 });
-$("#company").click(function () {
+$("#company").on("click", function () {
   $("#hidden1").slideToggle("slow");
   $(".hide1").slideToggle("slow");
 });
 
-$(".menu").click(function () {
+$(".menu").on("click", function () {
   $(".left-list").slideToggle("slow");
 });
